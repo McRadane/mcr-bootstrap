@@ -1,6 +1,6 @@
 scoreboard players add #mcr_tick mcr_tick 1
 
-# Every tickkkkk
+# Every tick
 function #main:tick
 
 # Every 1 second

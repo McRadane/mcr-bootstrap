@@ -1,1 +1,1 @@
-{"main":{"$func":["tick","init"]}}
+{"mcr-bootstrap":{"$func":["tick","init","second","tick","uninstall"]},"main":{"$func":["tick"]}}

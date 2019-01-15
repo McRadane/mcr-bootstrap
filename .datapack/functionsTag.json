@@ -1,1 +1,1 @@
-{"minecraft":{"$tags":["tick","load"]},"main":{"$tags":["init","tick","second"]}}
+{"minecraft":{"$tags":["load","tick"]},"main":{"$tags":["hook-sneak-begin","hook-sneak-end","hook-sneak-second","hook-sneak-tick","hook-swim-begin","hook-swim-end","hook-swim-second","hook-swim-tick","init","second","tick"]}}
