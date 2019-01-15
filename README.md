@@ -1,7 +1,7 @@
 # McRadane's Bootstrap
 Minecraft datapack bootstrap
 
-##Tags
+## Tags
 This datapack provides some tags for executing functions:
 
 ### Base:
@@ -33,7 +33,7 @@ There is 2 tags for detecting players deaths
 
 1. In your datapack, create a folder named "main" and a subfolder named "tags"
 2. create a json file named after the tag you want to use, eg. "hook-swim-tick"
-  * In this case, the folder structure will be datapacks/<your datapack>/data/main/tags/hook-swim-tick.json
+  * In this case, the folder structure will be datapacks/ < your datapack > /data/main/tags/hook-swim-tick.json
 3. Put the following code to call your function:
 ```
 {
