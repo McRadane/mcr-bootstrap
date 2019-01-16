@@ -1,5 +1,5 @@
 # McRadane's Bootstrap
-Minecraft datapack bootstrap
+Minecraft datapack bootstrap, based on MSpaceDev (https://mspacedev.github.io/) works for HermitCraft / Xisumavoid's Vanila Tweek
 
 ## Tags
 This datapack provides some tags for executing functions:
