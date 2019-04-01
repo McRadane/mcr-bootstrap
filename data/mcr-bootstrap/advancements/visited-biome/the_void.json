@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_the_void": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_void"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/the_void"
+    }
+}

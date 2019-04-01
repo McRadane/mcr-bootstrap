@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_birch_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:birch_forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/birch_forest"
+    }
+}

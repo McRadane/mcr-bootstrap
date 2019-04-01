@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_modified_gravelly_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_gravelly_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/modified_gravelly_mountains"
+    }
+}

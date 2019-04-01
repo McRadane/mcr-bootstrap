@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/taiga"
+    }
+}

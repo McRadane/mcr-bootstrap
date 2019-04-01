@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_bamboo_jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/bamboo_jungle_hills"
+    }
+}

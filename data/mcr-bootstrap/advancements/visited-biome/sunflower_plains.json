@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_sunflower_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:sunflower_plains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/sunflower_plains"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_taiga_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/taiga_mountains"
+    }
+}

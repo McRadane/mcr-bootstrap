@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_stone_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:stone_shore"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/stone_shore"
+    }
+}

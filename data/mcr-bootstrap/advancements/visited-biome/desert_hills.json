@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_desert_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/desert_hills"
+    }
+}

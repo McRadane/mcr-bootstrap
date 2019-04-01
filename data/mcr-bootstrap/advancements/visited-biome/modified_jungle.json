@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_modified_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_jungle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/modified_jungle"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_cold_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:cold_ocean"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/cold_ocean"
+    }
+}

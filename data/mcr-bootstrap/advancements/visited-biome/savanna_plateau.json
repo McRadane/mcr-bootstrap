@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/savanna_plateau"
+    }
+}

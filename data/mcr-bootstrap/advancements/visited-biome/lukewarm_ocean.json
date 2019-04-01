@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_lukewarm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:lukewarm_ocean"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/lukewarm_ocean"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/badlands"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:river"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/river"
+    }
+}

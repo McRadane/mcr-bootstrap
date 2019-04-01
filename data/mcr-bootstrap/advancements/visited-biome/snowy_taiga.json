@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_snowy_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_taiga"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/snowy_taiga"
+    }
+}

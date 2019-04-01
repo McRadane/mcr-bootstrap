@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_wooded_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_badlands_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/wooded_badlands_plateau"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_giant_spruce_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_spruce_taiga_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/giant_spruce_taiga_hills"
+    }
+}

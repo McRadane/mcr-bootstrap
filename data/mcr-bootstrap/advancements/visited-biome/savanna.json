@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/savanna"
+    }
+}

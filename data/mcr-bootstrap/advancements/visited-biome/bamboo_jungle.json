@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_bamboo_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/bamboo_jungle"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_flower_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:flower_forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/flower_forest"
+    }
+}

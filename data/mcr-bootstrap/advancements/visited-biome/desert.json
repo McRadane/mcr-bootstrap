@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/desert"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_ice_spikes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ice_spikes"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/ice_spikes"
+    }
+}

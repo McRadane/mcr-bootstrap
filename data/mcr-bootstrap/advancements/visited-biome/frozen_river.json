@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_frozen_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:frozen_river"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/frozen_river"
+    }
+}

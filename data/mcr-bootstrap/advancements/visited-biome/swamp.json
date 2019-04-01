@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swamp"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/swamp"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_shattered_savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:shattered_savanna_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/shattered_savanna_plateau"
+    }
+}

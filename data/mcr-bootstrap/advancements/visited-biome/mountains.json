@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/mountains"
+    }
+}

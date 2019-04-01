@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_wooded_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/wooded_hills"
+    }
+}

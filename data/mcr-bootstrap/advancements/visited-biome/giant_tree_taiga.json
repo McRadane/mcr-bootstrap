@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_giant_tree_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_tree_taiga"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/giant_tree_taiga"
+    }
+}

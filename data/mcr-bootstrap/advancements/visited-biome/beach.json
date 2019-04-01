@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:beach"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/beach"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_snowy_tundra": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_tundra"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/snowy_tundra"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_dark_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:dark_forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/dark_forest"
+    }
+}

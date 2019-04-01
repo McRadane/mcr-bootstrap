@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_mushroom_fields": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/mushroom_fields"
+    }
+}

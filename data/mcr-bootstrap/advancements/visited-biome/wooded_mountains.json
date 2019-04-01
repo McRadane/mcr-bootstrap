@@ -1,0 +1,14 @@
+{
+    "parent": "mcr-bootstrap:biome",
+    "criteria": {
+        "discover_wooded_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcr-bootstrap:biome/wooded_mountains"
+    }
+}
