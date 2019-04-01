@@ -12,9 +12,11 @@ scoreboard objectives add mcr_death deathCount
 
 scoreboard objectives add mcr_online dummy
 
+scoreboard objectives add mcr_rng dummy
 scoreboard objectives add mcr_const dummy
 
 scoreboard players set #mcr_tick mcr_tick 0
+scoreboard players set #mcr_rng_mod mcr_rng 10
 
 execute unless score #mcr_global mcr_online = #mcr_global mcr_online run scoreboard players set #mcr_global mcr_online 0
 

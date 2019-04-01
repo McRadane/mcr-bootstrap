@@ -12,6 +12,7 @@ scoreboard objectives remove mcr_death
 
 scoreboard objectives remove mcr_online
 
+scoreboard objectives remove mcr_rng
 scoreboard objectives remove mcr_const
 
 function #main:uninstall

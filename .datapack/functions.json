@@ -1,1 +1,1 @@
-{"main":{"$func":["tick"]},"mcr-bootstrap":{"$func":["init","online_set","second","tick","uninstall","const","update"],"detect":{"$func":["die_tick","online_second","sneak_second","sneak_tick","swim_second","swim_tick"]},"mcscript":{"$func":["load"]}}}
+{"mcr-bootstrap":{"tools":{"$func":["online_tracker","online_tracker","rand","rand10","rand_int32"]},"$func":["const","init","second","tick","uninstall","update"],"detect":{"$func":["die_tick","online_second","sneak_second","sneak_tick","swim_second","swim_tick"]}},"main":{"$func":["tick"]}}

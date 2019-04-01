@@ -9,3 +9,5 @@ for(1,99) {
 /scoreboard players set #mcr_130 mcr_const 130
 /scoreboard players set #mcr_140 mcr_const 140
 /scoreboard players set #mcr_150 mcr_const 150
+
+/scoreboard players set #mcr_int32 mcr_const 2147483647

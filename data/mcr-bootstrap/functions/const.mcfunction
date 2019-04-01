@@ -109,4 +109,5 @@ scoreboard players set #mcr_120 mcr_const 120
 scoreboard players set #mcr_125 mcr_const 125
 scoreboard players set #mcr_130 mcr_const 130
 scoreboard players set #mcr_140 mcr_const 140
-scoreboard players set #mcr_150 mcr_const 150
+scoreboard players set #mcr_150 mcr_const 150
+scoreboard players set #mcr_int32 mcr_const 2147483647
