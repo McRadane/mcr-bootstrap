@@ -1,0 +1,6 @@
+{
+    "values": [
+        "mcr-bootstrap:biome-index",
+        "mcr-bootstrap:const"
+    ]
+}
