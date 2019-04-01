@@ -1,1 +1,1 @@
-{"mcr-bootstrap":{"$func":["tick","init","second","tick","uninstall"]},"main":{"$func":["tick"]}}
+{"main":{"$func":["tick"]},"mcr-bootstrap":{"$func":["init","online_set","second","tick","uninstall","const","update"],"detect":{"$func":["die_tick","online_second","sneak_second","sneak_tick","swim_second","swim_tick"]},"mcscript":{"$func":["load"]}}}

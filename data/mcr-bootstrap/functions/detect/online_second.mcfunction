@@ -1,0 +1,2 @@
+execute as @a unless score @s mcr_online = #mcr_global mcr_online run function #main:hook-was-offline
+execute as @a unless score @s mcr_online = #mcr_global mcr_online run scoreboard players operation @s mcr_online = #mcr_global mcr_online

@@ -1,0 +1,23 @@
+{
+  "name": "mcr-bootstrap",
+  "version": "1.0.0",
+  "description": "Minecraft datapack bootstrap, based on MSpaceDev (https://mspacedev.github.io/) works for HermitCraft / Xisumavoid's Vanilla Tweeks",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node ./node_modules/mcscript/bin/test-module.js compile",
+    "watch": "node ./node_modules/mcscript/bin/test-module.js watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McRadane/mcr-bootstrap.git"
+  },
+  "author": "McRadane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/McRadane/mcr-bootstrap/issues"
+  },
+  "homepage": "https://github.com/McRadane/mcr-bootstrap#readme",
+  "devDependencies": {
+    "mcscript": "^0.2.2"
+  }
+}

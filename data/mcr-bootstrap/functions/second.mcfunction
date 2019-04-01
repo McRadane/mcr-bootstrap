@@ -1,2 +1,3 @@
-execute as @a if score @s mcr_swim matches 1 run function #main:hook-swim-second
-execute as @a[nbt={OnGround:1b}] if score @s mcr_sneak_time matches 1.. run function #main:hook-sneak-second
+execute if score #mcr_feature mcr_swim_detect matches 1 run function mcr-bootstrap:detect/swim_second
+execute if score #mcr_feature mcr_sneak_detect matches 1 run function mcr-bootstrap:detect/sneak_second
+execute if score #mcr_feature mcr_online matches 1 run function mcr-bootstrap:detect/online_second

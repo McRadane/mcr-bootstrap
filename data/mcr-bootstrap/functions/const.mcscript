@@ -1,0 +1,11 @@
+for(1,99) {
+    /scoreboard players set #mcr_$(i) mcr_const $(i)
+}
+
+/scoreboard players set #mcr_100 mcr_const 100
+/scoreboard players set #mcr_110 mcr_const 110
+/scoreboard players set #mcr_120 mcr_const 120
+/scoreboard players set #mcr_125 mcr_const 125
+/scoreboard players set #mcr_130 mcr_const 130
+/scoreboard players set #mcr_140 mcr_const 140
+/scoreboard players set #mcr_150 mcr_const 150
