@@ -32,7 +32,7 @@ execute unless score #mcr_feature mcr_online = #mcr_feature mcr_online run score
 
 # set version only if not existent. Otherwise, notify that an update is needed
 execute unless score #mcr_bootstrap mcr_versions = #mcr_bootstrap mcr_versions run scoreboard players set #mcr_bootstrap mcr_versions 3
-execute unless score #mcr_bootstrap mcr_versions matches 3 run tellraw @a ["",{"text":"McRadane's Bootstrap has been upgraded, you need to update. ["},{"text":"Click here","underlined":true,"clickEvent":{"action":"run_command","value":"/function mcr-bootstrap/update"}},{"text":"]"}]
+execute unless score #mcr_bootstrap mcr_versions matches 3 run tellraw @a ["",{"text":"McRadane's Bootstrap has been upgraded, you need to update. ["},{"text":"Click here","underlined":true,"clickEvent":{"action":"run_command","value":"/function mcr-bootstrap:update"}},{"text":"]"}]
 
 # no update needed, execute children's inits
 execute if score #mcr_bootstrap mcr_versions matches 3 run function #main:init

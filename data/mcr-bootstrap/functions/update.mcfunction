@@ -2,3 +2,5 @@ execute if score #mcr_bootstrap mcr_versions matches 1 run function #main:update
 execute if score #mcr_bootstrap mcr_versions matches 1 run function #main:updates/update-2-to-3
 
 execute if score #mcr_bootstrap mcr_versions matches 2 run function #main:updates/update-2-to-3
+
+scoreboard players set #mcr_bootstrap mcr_versions 3
